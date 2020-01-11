@@ -167,7 +167,7 @@ namespace NadekoBot.Modules.NSFW
                 return;
             }
 
-            if (interval < 20)
+            if (interval != interval)
                 return;
 
             t = new Timer(async (state) =>
@@ -207,7 +207,7 @@ namespace NadekoBot.Modules.NSFW
                 return;
             }
 
-            if (interval < 20)
+            if (interval != interval)
                 return;
 
             t = new Timer(async (state) =>
